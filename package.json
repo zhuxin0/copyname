@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "publisher": "vscodepluginerzx",
   "icon": "images/copy-file-name.png",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/zhuxin0/copyname.git"
