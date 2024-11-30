@@ -1,0 +1,27 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 主背景 -->
+  <rect width="128" height="128" rx="24" fill="#2196F3"/>
+
+  <!-- 前景文件图标 -->
+  <g filter="url(#shadow)">
+    <path d="M84 44v52c0 4.4-3.6 8-8 8H40c-4.4 0-8-3.6-8-8V32c0-4.4 3.6-8 8-8h24l20 20z" fill="white"/>
+    <path d="M84 44H64V24L84 44z" fill="#E3F2FD"/>
+  </g>
+
+  <!-- 复制图标 -->
+  <g transform="translate(12, 12)">
+    <path d="M84 44v52c0 4.4-3.6 8-8 8H40c-4.4 0-8-3.6-8-8V32c0-4.4 3.6-8 8-8h24l20 20z" fill="#90CAF9" opacity="0.6"/>
+  </g>
+
+  <!-- 文件内容线条 -->
+  <rect x="44" y="56" width="40" height="4" rx="2" fill="#2196F3"/>
+  <rect x="44" y="68" width="32" height="4" rx="2" fill="#2196F3"/>
+  <rect x="44" y="80" width="36" height="4" rx="2" fill="#2196F3"/>
+
+  <!-- 阴影滤镜 -->
+  <defs>
+    <filter id="shadow" x="-4" y="-4" width="96" height="96" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+</svg>
